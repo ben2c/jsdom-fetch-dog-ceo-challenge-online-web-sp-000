@@ -1,6 +1,8 @@
 console.log('%c HI', 'color: firebrick')
 
-
+document.addEventListener("DOMContentLoaded", function(){
+  loadImages()
+})
 
 function loadImages(){
   const imgUrl = "https://dog.ceo/api/breeds/image/random/4"
