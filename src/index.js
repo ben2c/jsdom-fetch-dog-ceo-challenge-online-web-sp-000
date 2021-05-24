@@ -2,6 +2,7 @@ console.log('%c HI', 'color: firebrick')
 
 document.addEventListener("DOMContentLoaded", function(){
   loadImages()
+  loadBreeds()
 })
 
 function loadImages(){
