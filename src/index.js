@@ -13,3 +13,10 @@ function loadImages(){
     results.message.forEach(image => addImage(image))
   });
 }
+
+function addImage(picUrl) {
+  const container = document.getElementById("dog-image-container");
+  const newImage = document.createElement('img');
+  newImage.src = picUrl;
+  container.appendChild(newImage);
+}
